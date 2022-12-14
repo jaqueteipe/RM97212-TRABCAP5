@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Monda&display=swap');
+body,html {
+	height:100%;
+	margin: 0;
+
+}
+
+.bg{
+	background-image: url(fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+
+}
+header{
+
+}
+.containner{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.nome{
+	color: rgb(250, 250, 250);
+	margin-left: 125px;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: Monda;
+}
+.user{
+	width:100px;
+	height:15%;
+	float: left;
+}
+#retangulo{
+    width: 100%;
+    height: 20%;
+    background-color: #F8E2FF99;
+    margin: 0px;
+}
+#retangulo2{
+    width: 95%;
+    height: 50%;
+    background-color: rgb(250, 250, 250);
+    margin-left: 2%;
+    border-radius: 2%;
+    margin-top: 3%;
+    float: bottom;
+}
+h3{
+	margin-top: 5px;
+	margin-left: 5%;
+	font-size: 24px ;
+	font-family: Monda;
+	border-left: groove purple;
+	border-bottom: 2px solid darkgray;
+	padding-block: 2px;
+
+}
+.olho{
+	float: right;
+	width: 40px;
+	margin-right: 5%;
+}
+
+h4{
+	font-family: Monda;
+	margin-top: 5px;
+	margin-left: 5%;
+	font-size: 24px ;
+	
+}
+h5{
+	font-family: Monda;
+	font-size: 24px ;
+	margin-top: 5px;
+	margin-left: 5%;
+	padding: 15px;
+	}
+
+span{
+ float: right;
+	}
+
+.din1{
+	width:60px;
+	height:50px;
+	float: left;
+	margin-left: 2%;
+}
+
+.din2{
+	width:60px;
+	height:50px;
+	float: left;
+	margin-left: 2%;
+}
+.form2 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.cartao{
+	width: 10%;
+	align-content: center;
+	margin-left: 45%;
+	align-self: center;
+	margin-top: 3%;
+}
+h6{
+	font-family: Monda;
+	font-size: 24px ;
+	margin-top: 5px;
+	margin-left: 5%;
+	padding: 15px;
+	text-align: center;
+	}

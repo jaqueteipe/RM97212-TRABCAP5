@@ -1,0 +1,66 @@
+body,html {
+	height:100%;
+	margin: 0;
+	padding-bottom: 50px;
+
+}
+
+.bg{
+	background-image: url(fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+.titulo-principal { 
+	color: rgb(250, 250, 250);
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+}
+.email{
+	color: rgb(250, 250, 250);
+	text-align: center;
+	padding-left: 30px;
+}
+.form-label{
+	color: rgb(250, 250, 250);
+
+}
+
+.entrar{
+	padding-inline-start: 10px;
+	padding-inline-end: 10px;
+	align-self: center;
+
+}
+
+.text-center{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding: 100px;
+}
+.form-check-label{
+	color: rgb(250, 250, 250);
+	text-align: center;
+
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	padding-left: 250px;	
+}
+.form-check-input{
+	text-align: center;
+}
+.form2 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+
